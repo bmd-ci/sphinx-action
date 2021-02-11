@@ -5,17 +5,17 @@ branding:
   icon: 'book'
   color: 'yellow'
 inputs:
-  docs-folder:
+  docs_folder:
     description:
       The folder containing your sphinx docs.
     required: true
     default: "docs/"
-  build-command:
+  build_command:
     description:
       The command used to build your documentation.
     required: false
     default: make html
-  pre-build-command:
+  pre_build_command:
     description:
       Run before the build command, you can use this to install system level
       dependencies, for example with
