@@ -24,3 +24,5 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - --user "$(id -u):$(id -g)"
